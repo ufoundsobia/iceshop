@@ -1,0 +1,151 @@
+body{
+    background-color: hsl(0, 85%, 18%);
+}
+#box{
+    height: 500px;
+    width: 800px;
+    background-color: burlywood;
+    margin: auto;
+    box-shadow: 10px 10px 4px black;
+    border: 5px solid hsl(0, 61%, 15%);
+    border-radius: 25px;
+}
+#icecream{
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    height: 40px;
+    width: 35px;
+    float: left;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotate {
+    100%{transform: rotateZ(360deg);}
+}
+@keyframes glowh {
+    0% {
+        color: white;
+        text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    }
+    50% {
+        color: hsl(350, 57%, 21%);
+        text-shadow: 0 0 5px  hsl(0, 49%, 61%);
+    }
+    100% {
+        color: white;
+        text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    }
+    
+}
+h1 {
+    color: rgb(77, 17, 17);
+    border-bottom: 10px double rgb(139, 103, 65);
+    font-family: "lucida console";
+    float: left;
+    right: 10px;
+    animation: glowh 2s infinite;
+}
+#box1{
+    padding: 10px;
+}
+#box1 a {
+    font-size: small;
+    font-family: "lucida console";
+    padding: 10px;
+    float: right;
+    display: block;
+    text-decoration: none;
+    color: rgb(34, 72, 34);
+}
+.hov:hover{
+    font-size: large;
+    text-shadow: 0 0 5px whitesmoke;
+    font-weight: bold;
+}
+#conten{
+    font-family:monospace;
+    font-size: larger;
+    color: rgb(74, 19, 19);
+    font-weight: bold;
+    position: relative;
+    top: 100px;
+}
+#par{
+    font-size: large;
+    position: relative;
+    right: 164px;
+}
+#bot{
+    font-size: larger;
+    position: relative;
+    right: 100px;
+}
+#conten .kar{
+    position: relative;
+    left: 50px;
+}
+#conten #bot1{
+    font-family:monospace;
+    position: relative;
+    top: 130px;
+}
+#conten #bot2{
+    font-family:monospace;
+    font-size: 20px;
+    color: rgb(74, 19, 19);
+    text-decoration: none;
+    position: relative;
+    top: 130px;
+}
+#bot2:hover{
+    font-size: larger;
+    text-shadow: 0 0 3px rgba(57, 12, 12, 0.696);
+}
+.options{
+    background-color:  hsl(0, 85%, 18%);
+    display: inline-block;
+    position: relative;
+    left: 180px;
+    top: 30px;
+    height: 100px;
+    width: 135px;
+    margin: 10px;
+    border: 1px solid bisque;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgb(67, 20, 20);
+}
+.description{
+    position:relative;
+    top: 25px;
+    left: 8px;
+    color: bisque;
+}
+.options i{
+    color: hsl(33, 55%, 74%);
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    left: 43px;
+}
+.options:hover{
+    background-color:  hsl(0, 85%, 15%);
+    display: inline-block;
+    position: relative;
+    left: 180px;
+    top: 30px;
+    height: 110px;
+    width: 145px;
+    margin: 10px;
+    border: 1px solid bisque;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px hsl(0, 54%, 14%);
+}
+footer{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: rgb(176, 146, 146);
+}
